@@ -5,7 +5,7 @@
 library("MTS")
 
 nacf = 2
-lag.ar.max = 5
+lag.ar.max = 8
 
 # Set VAR
 nobs = 30
