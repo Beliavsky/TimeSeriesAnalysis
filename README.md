@@ -249,3 +249,23 @@ Best lag according to AIC: 4
 Best lag according to BIC: 3 
 Best lag according to  HQ: 3
 ```
+
+The script `xsim_var_fit_var.r` simulates from a bivariate VAR(1) process with only 30 observations. In this case
+only BIC chooses the correct lag order.
+
+```
+Results:
+ Lag       AIC      BIC        HQ
+   1 1.2742610 1.461087 1.3340284
+   2 1.4718569 1.845509 1.5913915
+   3 1.3075726 1.868052 1.4868746
+   4 1.1098720 1.857177 1.3489414
+   5 0.6248741 1.559006 0.9237108
+   6 0.4598563 1.580814 0.8184604
+   7 0.5678868 1.875671 0.9862582
+   8 0.6714662 2.166077 1.1496049
+
+Best lag according to AIC: 6 
+Best lag according to BIC: 1 
+Best lag according to  HQ: 6 
+```
