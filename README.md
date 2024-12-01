@@ -1,5 +1,5 @@
 # TimeSeriesAnalysis
-Scripts for time series analysis
+R scripts for time series analysis using the MTS package.
 
 Sample output from `xsim_varma_fit_var.r`, which uses the R [MTS](https://cran.r-project.org/web/packages/MTS/index.html) package to simulate a VARMA(1,1) process and fit VAR (vector autoregression) models of successively higher orders, is below. The BIC and HQ criteria choose a VAR with 3 lags, fewer than the AIC, which chooses 4.
 
