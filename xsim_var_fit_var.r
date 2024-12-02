@@ -7,7 +7,7 @@ library("MTS")
 nacf = 2
 lag.ar.max = 8
 
-# Set VAR
+# Set VAR parameters
 nobs = 30
 p1 = matrix(c(0.2, -0.6, 0.3, 1.1), 2, 2)
 sig = matrix(c(4, 0.8, 0.8, 1), 2, 2)
